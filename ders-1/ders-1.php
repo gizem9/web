@@ -37,7 +37,7 @@ echo"<ol>
     <li>Değişken isimleri $ ile başlar.</li>
     <li>Değişken isimleri sayısal ifadeler ile başlayamaz.</li>
     <li>Değişken isimlerinde boşluk kullanılmaz. İki kelime birinci_sinif birinciSinif örnekleri kullanılabilir.</li>
-    <li>Değişken isimleri küçük-büyük harfe duyarlıdır.\$sayi !=\$Sayi </li>
+    <li>Değişken isimleri küçük-büyük harfe duyarlıdır(case-senstive).\$sayi !=\$Sayi </li>
     <li>Değişken ismi, değişkenin taşındığı içeriği ifade etmeli.</li>
     <li>Değişken içeriğinde metinsel ifade varsa çift tırnak (\")veya tek tırnak (')kullanılabilir.</li>
     <li>Değişken içeriğinde sayısal bir ifade varsa tırnak kullanmak gerekli değildir.</li>
@@ -64,7 +64,7 @@ echo"<ol>
     $soyad ="Yanık";
     $numara="216029015";
     ?>
-    <br><br><br>
+    <br><br><br><br>
 
     <form action="">
         <label for= "universite">Üni: </label>
@@ -72,7 +72,7 @@ echo"<ol>
 
 
         <label for= "myo">Myo: </label>
-        <input type ="text" name="" value="<?php echo $uni; ?> "id="myo" disabled><br>
+        <input type ="text" name="" value="<?php echo $myo; ?> "id="myo" disabled><br>
 
         <label for= "Ad">ad: </label>
         <input type ="text" name="" value="<?php echo $ad; ?> "id="Ad" disabled><br>

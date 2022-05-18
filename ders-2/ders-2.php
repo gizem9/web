@@ -129,11 +129,11 @@
     $y = 4;
     $mod = fmod($x ,$y);
     echo "$x mod $y: $mod";
-    echo "<br> $x sayısı: ".(fmod($x, 2)== 0? "çiftir": "tektir") ; 
+    echo "<br> $x sayısı: ".(fmod($x, 2)== 0? "çifttir": "tektir") ; 
  
     /* girilen sayının tek mi çiftt mi oldugunu gösterir */
     $z = 71;
-    echo "<br> $z sayısı: ".(fmod($z, 2)== 0? "çiftir": "tektir") ; 
+    echo "<br> $z sayısı: ".(fmod($z, 2)== 0? "çifttir": "tektir") ; 
  
  
  
